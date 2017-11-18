@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2136,3 +2137,24 @@ This will only work for locales that have been explicitly imported before.
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+### Usage
+
+cd into folder
+```
+pip install -r requirements.txt
+npm install
+```
+### Usage in development
+cd into folder and then:
+```
+npm run watch
+```
+alongside the python dev server:
+
+run this command:
+```
+python example.py
+```
+the app should be working.
+>>>>>>> f8f8d7f9bef036b58be27116da9ee8b7d4a32b23

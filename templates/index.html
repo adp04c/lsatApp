@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>RememBar! </title>
+	<h2>An App for Black Letter Law</h2>
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+	<link rel="stylesheet" href="static/css/app.css">
+	<link rel="stylesheet" href="static/css/App2.css">
+</head>
+<body>
+	<div class="container">
+        <div id="app-container2">{{ rendered2|safe }}</div>
+				<div id="app-container">{{ rendered|safe }}</div>
+				<p>{{text}}</p>
+	</div>
+    <script>
+        // Info stored for re-rendering the app
+      	var store = {{ store  | tojson | safe }};
+				var store2 = {{ store2  | tojson | safe }};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+    <script src="./static/js/dist/bundle.js" type="text/javascript"></script>
+</body>
+</html>

@@ -7,12 +7,21 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Rory's and A2s sick app for law students who want to perform well and learn to do other things</h2>
-          <h3>We have a lot to learn to get this to work</h3>
+          <body>
+          <font face="arial" color="FF33E0">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h2>Rory's and A2s sick app for law students who want to perform well and learn to do other things</h2>
+            <h3>We have a lot to learn to get this to work</h3>
+          </font>
+          </body>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <body>
+          <font face="arial" color="FF33E0">
+            <h1>Good job guys!</h1>
+            To get started, edit <code>src/App.js</code> and save to reload.
+          </font>
+          </body>
         </p>
       </div>
     );
@@ -20,3 +29,4 @@ class App extends Component {
 }
 
 export default App;
+

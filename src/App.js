@@ -11,7 +11,8 @@ class App extends Component {
           <font face="arial" color="FF33E0">
             <img src={logo} className="App-logo" alt="logo" />
             <h2>Rory's and A2s sick app for law students who want to perform well and learn to do other things</h2>
-            <h3>We have a lot to learn to get this to work</h3>
+            <button>log in</button>
+            <button>sign up</button>
           </font>
           </body>
         </div>

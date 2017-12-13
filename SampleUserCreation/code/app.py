@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, reqparse
 from flask_jwt import JWT, jwt_required, current_identity
 
 from security import authenticate, identity
@@ -17,5 +17,5 @@ api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
 api.add_resource(UserRegister, '/register')
 
-if __name__ == '__main__':
+if __name__ == '__main__': # This makes it such that this will not run if this file is imported, runs only if file is directly run
     app.run(debug=True)  # important to mention debug=True
